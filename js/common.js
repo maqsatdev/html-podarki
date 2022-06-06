@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   new WOW().init();
 
+  MicroModal.init({
+    disableScroll: true,
+  });
+
   const bannerSlider = new Swiper(".banner-slider", {
     autoplay: {
       delay: 3000,
@@ -46,5 +50,10 @@ $(function () {
     scrollSpeed: 1000,
     highlightClass: "active",
     offset: 0,
+  });
+
+  $("a[data-micromodal-trigger]").click(function (e) {
+    e.preventDefault();
+    return false;
   });
 });

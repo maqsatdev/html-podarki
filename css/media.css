@@ -48,7 +48,10 @@
     margin: 0 0 20px 0;
   }
   .banner .banner-text {
-    margin: 194px 0 114px;
+    bottom: 150px;
+  }
+  .banner-slider__slide {
+    height: 550px;
   }
   .btn {
     padding: 12px 24px;
@@ -161,6 +164,9 @@
   .swiper-rtl .swiper-button-prev {
     right: 15px;
   }
+  .banner-slider__slide {
+    height: 500px;
+  }
   .gallery-slider__num {
     font-size: 400px;
     left: -30px;
@@ -170,6 +176,17 @@
   }
   .contacts-list {
     grid-gap: 15px;
+  }
+  ::placeholder {
+    font-size: 14px;
+  }
+  .form-input input {
+    height: 52px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
   }
 }
 
@@ -219,14 +236,17 @@
   .header__inner .hamburger {
     margin-left: auto;
   }
-  .banner .banner-text {
-    margin: 120px 0;
-  }
   .banner-text::after {
     width: 55%;
   }
   .banner-text__inner {
     max-width: 55%;
+  }
+  .banner-slider__slide {
+    height: 420px;
+  }
+  .banner .banner-text {
+    bottom: 100px;
   }
   .banner-text__description {
     margin: 0 0 22px 0;
@@ -271,6 +291,28 @@
     top: -60px;
     right: 20px;
   }
+  .modal__container {
+    max-width: 700px;
+    min-width: 70%;
+  }
+  .popup-form .form-input input {
+    min-width: auto;
+  }
+  .modal__close {
+    right: 20px;
+  }
+  .modal .section-title {
+    margin-bottom: 32px;
+  }
+  .modal__container {
+    padding: 26px 20px 40px;
+  }
+  .form-input input {
+    height: 48px;
+  }
+  .form .btn {
+    padding: 12px 20px;
+  }
 }
 
 /* sm <= Medium (md) */
@@ -301,6 +343,9 @@
   }
   .banner-text__description {
     margin: 0 0 16px 0;
+  }
+  .banner-slider__slide {
+    height: 350px;
   }
   .section-title {
     margin-bottom: 20px;
@@ -394,10 +439,16 @@
     font-size: 14px;
   }
   .banner-slider__slide {
+    height: 300px;
+  }
+  .banner .banner-text {
+    bottom: 30px;
+    right: 15px;
+  }
+  .banner-slider__slide {
     padding: 0 15px;
   }
   .banner .banner-text {
-    margin: 60px auto;
     background: rgba(240, 227, 206, 0.77);
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -455,6 +506,13 @@
   }
   .footer {
     padding: 30px 15px;
+  }
+  .form-input label {
+    top: -8px;
+    font-size: 12px;
+  }
+  .modal__container {
+    min-width: 92%;
   }
 }
 
