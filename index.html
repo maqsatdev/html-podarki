@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <base href="/"> -->
+
+    <title>Старинные подарки</title>
+    <meta name="description" content="Simple Starter Description" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <link rel="icon" href="images/favicon.png" />
+    <meta property="og:image" content="images/preview.jpg" />
+
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="libs/wow/animate.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner animate__animated animate__fadeIn">
+          <img src="./images/logo.png" class="logotype" alt="logo" />
+          <ul class="main-nav">
+            <li class="main-nav__item">
+              <a href="#about" class="main-nav__link md-text">О нас</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#gallery" class="main-nav__link md-text active"
+                >Собрание галереи</a
+              >
+            </li>
+            <li class="main-nav__item">
+              <a href="#collector" class="main-nav__link md-text"
+                >Коллекционерам</a
+              >
+            </li>
+            <li class="main-nav__item">
+              <a href="#events" class="main-nav__link md-text">События</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#partners" class="main-nav__link md-text">Партнёры</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#contacts" class="main-nav__link md-text">Контакты</a>
+            </li>
+          </ul>
+          <span class="hamburger">
+            <span class="hamburger__inner"></span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <section class="banner section-padding">
+        <div class="banner-slider swiper">
+          <div class="swiper-wrapper">
+            <div
+              class="banner-slider__slide swiper-slide"
+              style="background-image: url(images/flowers_1.png)"
+            >
+              <div class="banner-text animate__animated animate__fadeIn">
+                <div class="container">
+                  <div class="banner-text__inner">
+                    <h3 class="banner-text__title xl-title">
+                      Галерея старинных <br />
+                      подарков
+                    </h3>
+                    <p class="banner-text__description xl-text">
+                      Подберите подарок по душе
+                    </p>
+                    <a href="#" class="btn sm-text">Получить консультацию</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="banner-slider__slide swiper-slide"
+              style="background-image: url(images/flowers_2.png)"
+            >
+              <div class="banner-text animate__animated animate__fadeIn">
+                <div class="container">
+                  <div class="banner-text__inner">
+                    <h3 class="banner-text__title xl-title">
+                      Галерея старинных <br />
+                      подарков
+                    </h3>
+                    <p class="banner-text__description xl-text">
+                      Подберите подарок по душе
+                    </p>
+                    <a href="#" class="btn sm-text">Получить консультацию</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages-section section section-padding-50">
+        <div class="container">
+          <div class="advantages-list">
+            <div
+              class="advantages-item wow animate__animated animate__fadeInUp"
+            >
+              <span class="advantages-item__icon">
+                <img src="./images/icons/icon-1.svg" alt="icon" />
+              </span>
+              <div class="advantages-item__text">
+                <h3 class="advantages-item__title sm-title">
+                  Богатство выбора
+                </h3>
+                <p class="advantages-item__description sm-text">
+                  Обширное художественное собрание 2-х культурных столиц
+                </p>
+              </div>
+            </div>
+            <div
+              class="advantages-item wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <span class="advantages-item__icon">
+                <img src="./images/icons/icon-1.svg" alt="icon" />
+              </span>
+              <div class="advantages-item__text">
+                <h3 class="advantages-item__title sm-title">Уникальность</h3>
+                <p class="advantages-item__description sm-text">
+                  Редкие произведения искусства высокой художественной и
+                  коллекционной ценности
+                </p>
+              </div>
+            </div>
+            <div
+              class="advantages-item wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.4s"
+            >
+              <span class="advantages-item__icon">
+                <img src="./images/icons/icon-1.svg" alt="icon" />
+              </span>
+              <div class="advantages-item__text">
+                <h3 class="advantages-item__title sm-title">История</h3>
+                <p class="advantages-item__description sm-text">
+                  Каждый предмет имеет собственный характер и историю
+                </p>
+              </div>
+            </div>
+            <div
+              class="advantages-item wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.6s"
+            >
+              <span class="advantages-item__icon">
+                <img src="./images/icons/icon-1.svg" alt="icon" />
+              </span>
+              <div class="advantages-item__text">
+                <h3 class="advantages-item__title sm-title">Профессионализм</h3>
+                <p class="advantages-item__description sm-text">
+                  30 лет работы на арт-рынке
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section section-padding-100" id="about">
+        <div class="container">
+          <div class="about-section__text lg-text">
+            <h3
+              class="md-title title-color section-title wow animate__animated animate__fadeInUp"
+            >
+              О нас
+            </h3>
+            <div
+              class="wow animate__animated animate__fadeIn"
+              data-wow-delay="0.3s"
+            >
+              <p>
+                Галерея «Старинные подарки» - уникальное выставочное
+                пространство, расположенное в самом центре Москвы в арт-квартале
+                «Гостиный двор», в 2-х минутах ходьбы от Красной площади. Более
+                30 лет мы работаем с русским искусством второй половины XIX-
+                начала ХХ века западноевропейским декоративно - прикладное
+                искусством XVIII-XIX века и сформировали исключительное собрание
+                как редких предметов русского искусства коллекционной
+                значимости, так и лучшие образцы западноевропейской живописи и
+                удивительные по мастерству исполнения предметы
+                декоративно-прикладного искусства.
+              </p>
+              <p>
+                Русская или западно-европейская кабинетная бронза, живопись или
+                графика, фарфор или стекло, антикварная мебель или предметы
+                интерьера, - мы основательно подходим к формированию собрания,
+                поэтому здесь нет «случайных» вещей, все предметы,
+                представленные в галерее, имеют высокую художественную ценность.
+                Название «Старинные подарки» выбрано потому, что каждый предмет
+                может быть преподнесён в качестве изысканного подарка.
+              </p>
+              <p>
+                Собрание галереи будет интересно и ценителям прекрасного, и
+                начинающим собирателям, и профессиональным коллекционером. Мы
+                открыты к сотрудничеству и всегда рады видеть в стенах нашей
+                галереи профессиональных дизайнеров архитекторов: наша галерея -
+                прекрасное место, чтобы видеть и воспринимать искусство, черпать
+                идеи и вдохновение. Важно отметить, что несмотря на внушительную
+                площадь галереи, здесь представлена только часть собрания.
+                Полный каталог предлагаемых предметов мы можем предоставить при
+                личном общении в галерее.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section section" id="gallery">
+        <div class="container">
+          <h3
+            class="md-title title-color section-title wow animate__animated animate__fadeInUp"
+          >
+            Собрание галереи
+          </h3>
+        </div>
+        <div
+          class="gallery-slider swiper wow animate__animated animate__fadeIn"
+        >
+          <div class="swiper-wrapper">
+            <div
+              class="gallery-slider__slide swiper-slide"
+              style="background-image: url(images/gallery/image1.png)"
+            >
+              <div class="gallery-slider__content">
+                <div class="container">
+                  <div class="gallery-slider__num">
+                    <div class="container">1</div>
+                  </div>
+                  <h3 class="gallery-slider__title lg-title section-title">
+                    Живопись и графика
+                  </h3>
+                  <p class="gallery-slider__text xl-text">
+                    Уникальная и разнообразная коллекция картин русских мастеров
+                    конца XIX-начала ХХ века. Атмосферные полотна Шильдера.
+                    лирические пейзажи Горбатова, пронзительно реалистичные
+                    картины Шишкина и Крачковского, - это лишь часть художников,
+                    чьи работы представлены в галерее.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="gallery-slider__slide swiper-slide"
+              style="background-image: url(images/gallery/image2.png)"
+            >
+              <div class="gallery-slider__content">
+                <div class="container">
+                  <div class="gallery-slider__num">
+                    <div class="container">2</div>
+                  </div>
+                  <h3 class="gallery-slider__title lg-title section-title">
+                    Антикварная мебель
+                  </h3>
+                  <p class="gallery-slider__text xl-text">
+                    Особая гордость галереи - предметы мебели и интерьера
+                    различных стилей и художественных направлений: русский
+                    ампир, «второе рококо», строгая неоклассика, утонченный
+                    европейский модерн, произведения японских мастеров эпохи
+                    Мейдзи. Отдельные предметы мебели способны стать центральным
+                    звеном коллекции музейной высоты.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="gallery-slider__slide swiper-slide"
+              style="background-image: url(images/gallery/image3.png)"
+            >
+              <div class="gallery-slider__content">
+                <div class="container">
+                  <div class="gallery-slider__num">
+                    <div class="container">3</div>
+                  </div>
+                  <h3 class="gallery-slider__title lg-title section-title">
+                    Часы
+                  </h3>
+                  <p class="gallery-slider__text xl-text">
+                    Гости галереи по достоинству оценят роскошную коллекцию
+                    французских каминных и кабинетных часов первой половины XIX
+                    века. Все часы отреставрированы и находятся в рабочем
+                    состоянии.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="gallery-slider__slide swiper-slide"
+              style="background-image: url(images/gallery/image4.png)"
+            >
+              <div class="gallery-slider__content">
+                <div class="container">
+                  <div class="gallery-slider__num">
+                    <div class="container">4</div>
+                  </div>
+                  <h3 class="gallery-slider__title lg-title section-title">
+                    Фарфор
+                  </h3>
+                  <p class="gallery-slider__text xl-text">
+                    Фарфор занимает почетное место в залах галереи:дворцовые
+                    фарфоровые вазы, чайно - кофейные сервизы и скульптуры
+                    Императорского фарфорового завода и частных русских
+                    мануфактур, мелкая пластика Мейсен и КPM
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="gallery-slider__slide swiper-slide"
+              style="background-image: url(images/gallery/image5.png)"
+            >
+              <div class="gallery-slider__content">
+                <div class="container">
+                  <div class="gallery-slider__num">
+                    <div class="container">5</div>
+                  </div>
+                  <h3 class="gallery-slider__title lg-title section-title">
+                    Русское стекло
+                  </h3>
+                  <p class="gallery-slider__text xl-text">
+                    Мы удивим вас собранными произведениями золотого века
+                    русского декоративноприкладного искусства – русским стеклом
+                    1790 - 1830-х годов Императорского стеклянного завода.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="gallery-slider__slide swiper-slide"
+              style="background-image: url(images/gallery/image5.png)"
+            >
+              <div class="gallery-slider__content">
+                <div class="container">
+                  <div class="gallery-slider__num">
+                    <div class="container">6</div>
+                  </div>
+                  <h3 class="gallery-slider__title lg-title section-title">
+                    Декоративно-прикладное искусство
+                  </h3>
+                  <p class="gallery-slider__text xl-text">
+                    Мы подобрали предметы русской кабинетной бронза ранних
+                    отливок и предметы интерьера: лампы-торшеры, бра и
+                    канделябры, парадные люстры, европейскую скульптуру в
+                    мраморе и бронзе - выполненные по индивидуальным проектам
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section
+        class="collector-section section section-padding-100"
+        id="collector"
+      >
+        <div class="collector-section__inner">
+          <div class="collector-section__information">
+            <div class="container">
+              <div class="collector-section__text lg-text">
+                <h3
+                  class="md-title title-color section-title wow animate__animated animate__fadeInUp"
+                >
+                  Коллекционерам
+                </h3>
+                <p class="animate__animated animate__fadeInUp">
+                  Возможности галереи практически безграничны. Многолетний опыт
+                  сотрудничества с ведущими коллекционерами и собирателями
+                  Москвы и Санкт-Петербурга позволил создать исключительную базу
+                  произведений русского искусства второй половины XIX начала ХХ
+                  века и западноевропейского декоративно - прикладного искусства
+                  XVIII-XIX века. Мы способны удовлетворить самые разнообразные
+                  интересы наших гостей и активно работаем по запросам
+                  коллекционеров. Все просто: вы обозначаете свои пожелания - мы
+                  предлагаем вам лучшее решение из всех возможных.
+                </p>
+              </div>
+              <a
+                href="#"
+                class="btn sm-text collector-section__button wow animate__animated animate__tada"
+                data-wow-delay="1s"
+                >Оставить запрос</a
+              >
+            </div>
+          </div>
+          <div class="collector-section__images">
+            <img
+              src="images/image1.png"
+              alt="alt"
+              data-img="1"
+              class="wow animate__animated animate__slideInUp"
+            />
+            <img
+              src="images/image3.png"
+              alt="alt"
+              data-img="2"
+              class="wow animate__animated animate__fadeInUp"
+              data-wow-delay=".7s"
+            />
+            <img
+              src="images/image2.png"
+              alt="alt"
+              data-img="3"
+              class="wow animate__animated animate__fadeInDown"
+              data-wow-delay="1.2s"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="events-section section section-padding-100" id="events">
+        <div class="container">
+          <h3
+            class="md-title title-color section-title wow animate__animated animate__fadeInUp"
+          >
+            События
+          </h3>
+        </div>
+        <div class="container">
+          <div class="events-section__inner">
+            <div
+              class="events-section__image wow animate__animated animate__fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <img src="images/person.png" alt="alt" class="image" />
+            </div>
+            <div class="events-section__text lg-text">
+              <p
+                class="wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.6s"
+              >
+                “Мне бы хотелось, чтобы галерея, прежде всего, стала
+                пространством, объединяющим ценителей искусства, местом, в
+                котором каждый найдет для себя предмет по душе, «старинный
+                подарок», который как нельзя лучше подойдет к торжественному
+                случаю. В ближайшей перспективе - проводить на постоянной основе
+                выставки, лекции с участием профессиональных спикеров,
+                практикующих искусствоведов и экспертов в рамках
+                просветительской деятельности, обширное собрание
+                высокохудожественных произведений искусства галереи «Старинные
+                подарки» позволяет осуществить задуманные проекты.”
+              </p>
+              <h3
+                class="md-title title-color section-title wow animate__animated animate__fadeInDown"
+                data-wow-delay="0.7s"
+              >
+                Михаил Суслов
+              </h3>
+              <p
+                style="font-weight: 400"
+                class="wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.9s"
+              >
+                Основатель галереи “Старинные подарки”
+              </p>
+              <a
+                href="#"
+                class="btn sm-text wow animate__animated animate__tada"
+                data-wow-delay="1s"
+                >Узнать о ближайщих событиях</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="partners-section section section-padding-100"
+        id="partners"
+      >
+        <div class="container">
+          <h3
+            class="md-title title-color section-title wow animate__animated animate__fadeInUp"
+          >
+            Наши партнёры
+          </h3>
+          <div class="partners-list">
+            <a
+              href="#"
+              class="partners-item wow animate__animated animate__fadeInUp"
+            >
+              <img src="images/partner1.png" alt="alt" />
+            </a>
+            <a
+              href="#"
+              class="partners-item wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <img src="images/patner2.png" alt="alt" />
+            </a>
+            <a
+              href="#"
+              class="partners-item wow animate__animated animate__fadeInUp"
+              data-wow-delay="0.6s"
+            >
+              <img src="images/patner3.png" alt="alt" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contacts-section section section-padding-100 section-padding-top-0"
+        id="contacts"
+      >
+        <div class="container">
+          <h3
+            class="md-title title-color section-title wow animate__animated animate__fadeInUp"
+          >
+            Контакты
+          </h3>
+          <ul class="contacts-list">
+            <li>
+              <span class="contacts-list__label lg-text">Адрес:</span>
+              <span class="contacts-list__text lg-text"
+                >г. Москва, ул. Ильинка, 4, арт-квартал «Гостиный двор» (вход с
+                улицы)</span
+              >
+            </li>
+            <li>
+              <span class="contacts-list__label lg-text">Время работы:</span>
+              <span class="contacts-list__text lg-text"
+                >Пн-Пт: 10:00 — 18:00 <br />Сб-Вс: выходной
+              </span>
+            </li>
+            <li>
+              <span class="contacts-list__label lg-text">Телефон:</span>
+              <a href="tel:+79259636221" class="contacts-list__text lg-text"
+                >+7 (925) 963-62-21</a
+              >
+            </li>
+            <li>
+              <span class="contacts-list__label lg-text"
+                >Электронная почта:</span
+              >
+              <a
+                href="mailto:info@artantiQ.ru"
+                class="contacts-list__text lg-text"
+                >info@artantiQ.ru</a
+              >
+            </li>
+          </ul>
+          <div class="map">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A9740d9623df2c8f9c7e09d2d047ad974a1e5b0985bf67af8051e75064c0a0946&amp;source=constructor"
+              width="100%"
+              height="372"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="copyright sm-text">“Старинные Подарки”</div>
+    </footer>
+
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="libs/scroll2id/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="libs/wow/wow.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

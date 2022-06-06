@@ -1,0 +1,13 @@
+basic: 
+
+title: 
+52px - xl-title
+40px - lg-title
+32px - md-title
+28px - sm-title
+
+text: 
+24px xl-text
+20px lg-text
+18x md-text
+16px sm-text
