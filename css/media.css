@@ -88,6 +88,13 @@
     font-size: 500px;
     left: -60px;
   }
+  .to-top {
+    width: 60px;
+    height: 60px;
+  }
+  .to-top svg {
+    width: 24px;
+  }
 }
 
 /* lg <= Extra large (xl) */
@@ -312,6 +319,13 @@
   }
   .form .btn {
     padding: 12px 20px;
+  }
+  .to-top {
+    width: 45px;
+    height: 45px;
+  }
+  .to-top svg {
+    width: 16px;
   }
 }
 

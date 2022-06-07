@@ -666,12 +666,46 @@ body {
   color: var(--white);
   text-align: center;
 }
+.to-top {
+  position: fixed;
+  right: -100%;
+  bottom: 30px;
+  background-color: var(--accent);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: right 0.6s ease-in-out;
+  -webkit-transition: right 0.6s ease-in-out;
+  -moz-transition: right 0.6s ease-in-out;
+  -ms-transition: right 0.6s ease-in-out;
+  -o-transition: right 0.6s ease-in-out;
+  opacity: 0.5;
+  z-index: 12;
+}
+.to-top:hover {
+  opacity: 1;
+}
+.to-top.active {
+  right: 15px;
+}
+.to-top svg {
+  width: 32px;
+  fill: var(--white);
+}
+
 .modal {
   font-family: var(--userfont);
   position: relative;
   z-index: 99;
 }
-
 .modal__overlay {
   position: fixed;
   top: 0;

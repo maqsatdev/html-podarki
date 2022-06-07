@@ -34,6 +34,24 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 $(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > $(this).height()) {
+      $(".to-top").addClass("active");
+    } else {
+      $(".to-top").removeClass("active");
+    }
+  });
+
+  $(".to-top").click(function () {
+    $("html, body").stop().animate(
+      {
+        scrollTop: 0,
+      },
+      "slow",
+      "swing"
+    );
+  });
+
   $(".hamburger").click(function () {
     $(this).toggleClass("active");
     $(".main-nav").toggleClass("show");
